@@ -1,0 +1,189 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.siteHeader {
+    padding-bottom: 15rem;
+    background-image: url(Images/florence.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+}
+
+.siteHeader_logo {
+    display: inline-block;
+    margin: 0;
+}
+
+.logo_image {
+    width: 5rem;
+}
+
+.siteHeader_mainText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: white;
+    padding: 3rem 0rem 0rem 8rem;
+}
+
+.siteHeader_secondaryText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    color: white;
+    padding: 1rem 0rem 0rem 8rem;
+}
+
+/* Makes the list inline */
+.siteHeader_nav li {
+    display: inline-block;
+    padding: 0rem 1rem;
+}
+
+/* Makes everything in the nav header inline */
+.siteHeader_nav {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 2rem;
+}
+
+/* Nav links */
+.siteHeader_nav li a {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #51279b;
+    text-decoration: none;
+}
+
+.siteHeader_nav li a:hover {
+    color: #8662c7;
+}
+
+.siteHeader_learnMore a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 15px;
+}
+
+.siteHeader_learnMore {
+    font-size: 15px;
+    font-weight: 100;
+    background-color: #51279b;
+    display: inline-block;
+    padding: 15px;
+    margin-left: 8rem;
+}
+
+.siteHeader_learnMore:hover {
+    background-color: #8662c7;
+}
+
+.siteHeader_nav ul {
+    /* padding: 0rem;*/
+    margin: 0px;
+    padding-left: 1.7rem;
+}
+
+.card_row {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    text-align: left;
+    padding: 0em 1em;
+    
+}
+
+.card_content {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card_image {
+    /* width: 450px; */
+    width: 29rem;
+}
+
+.card_image:hover {
+    opacity: 70%;
+}
+
+.card_header{
+    padding: 0.5rem 0rem 0rem;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card_description {
+    font-size: 12px;
+}
+
+.like_comment_value {
+    display: inline-block;
+    padding-right: 1rem;
+    color: grey;
+    font-size: 10px;
+}
+
+.like_comment_image {
+    width: 0.75rem;
+}
+
+footer {
+    background-color: #51279b;
+    padding: 1rem 0rem;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #81d497;
+}
+
+footer a:hover {
+    color: lightgray;
+}
+
+.image_page_section {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 3rem;
+    padding-bottom: 2rem;
+    margin: 0rem;
+}
+
+.image_page_like_comment_image {
+    width: 1rem;
+    padding-left: 1rem;
+}
+
+.image_page_like_comment_value {
+    display: inline-block;
+    padding-right: 1rem;
+    color: grey;
+    font-size: 18px;
+}
+
+.image_page_long_lat {
+    color: grey;
+}
+
+.image_page_description {
+    border: 1px solid black;
+    margin: 0rem 20rem;
+    padding: 1rem;
+    background-color: lightgray;
+}
+
+.static_map {
+    text-align: center;
+    padding-bottom: 3rem;
+}
